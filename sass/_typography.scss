@@ -1,0 +1,32 @@
+body {
+    color: var(--color-grey);
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2.5rem;
+}
+
+.main-heading {
+    font-size: 3rem;
+    font-weight: 300;
+
+    @media only screen and (min-width: 800px) {
+        font-size: 6rem;
+    }
+
+    &--bold {
+        color: var(--color-very-dark-blue);
+        font-weight: 700;
+    }
+}
+
+.subheading {
+    color: var(--color-very-dark-blue);
+    font-size: 2rem;
+    font-weight: 300;
+
+    @media only screen and (min-width: 800px) {
+        font-size: 2.5rem;    }
+    }
+
+.copyright {
+    font-size: 1.5rem;
+}
